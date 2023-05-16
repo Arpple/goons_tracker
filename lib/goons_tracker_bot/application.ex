@@ -9,6 +9,7 @@ defmodule GoonsTrackerBot.Application do
   def start(_type, _args) do
     children = [
       GoonsTrackerBot.Consumer,
+      GoonsTrackerBot.Scheduler,
       # Starts a worker by calling: GoonsTrackerBot.Worker.start_link(arg)
       # {GoonsTrackerBot.Worker, arg}
     ]
