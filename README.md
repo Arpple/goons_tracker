@@ -1,21 +1,7 @@
 # GoonsTrackerBot
 
-**TODO: Add description**
+Escape From Tarkov Goons tracking discord bot. It does nothing, just show the location of current goons based from data got from tracker website https://goonstracker.com/
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `goons_tracker_bot` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:goons_tracker_bot, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/goons_tracker_bot>.
+## Invite to your server
+[use this link](https://discord.com/api/oauth2/authorize?client_id=1107851714784153691&permission=0&scope=bot)
 
