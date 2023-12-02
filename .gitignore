@@ -27,3 +27,4 @@ goons_tracker_bot-*.tar
 
 config/*.secret.exs
 !config/example.secret.exs
+!config/test.secret.exs

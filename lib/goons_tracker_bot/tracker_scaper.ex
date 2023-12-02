@@ -13,7 +13,7 @@ defmodule GoonsTrackerBot.TrackerScraper do
 				{:ok, location}
 
 			{:ok, %HTTPoison.Response{status_code: status}} ->
-				{:error, "Error: status " <> status}
+				{:error, "Error: status " <> Integer.to_string(status)}
 
 			{:error, %HTTPoison.Error{reason: reason}} ->
 				{:error, reason}
