@@ -28,7 +28,8 @@ defmodule GoonsTrackerBot.MixProject do
       {:nostrum, "~> 0.7"},
       {:httpoison, "~> 2.0"},
       {:jason, "~> 1.4"},
-      {:quantum, "~> 3.0"}
+      {:quantum, "~> 3.0"},
+			{:floki, "~> 0.35.0"},
     ]
   end
 

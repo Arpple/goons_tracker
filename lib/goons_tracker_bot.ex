@@ -1,9 +1,9 @@
 defmodule GoonsTrackerBot do
-	alias GoonsTrackerBot.TrackerApi
+	alias GoonsTrackerBot.TrackerScraper
 	alias Nostrum.Api
 
 	def update_location() do
-		{:ok, res} = TrackerApi.get_current()
-		Api.update_status(:dnd, "#{res.location}", 3) # 3 = Watching
+		{:ok, location} = TrackerScraper.get_current_location()
+		Api.update_status(:dnd, "#{location}", 3) # 3 = Watching
 	end
 end
